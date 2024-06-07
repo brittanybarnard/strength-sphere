@@ -3,7 +3,7 @@ import './LowerBody.scss';
 import exercisesData from '../../data/lowerExercises.json'; 
 
 const LowerBody = () => {
-  const [selectedMuscleGroup, setSelectedMuscleGroup] = useState('quads');
+  const [selectedMuscleGroup, setSelectedMuscleGroup] = useState("quads");
   const [lowerCompound, setLowerCompound] = useState([]);
   const [lowerUnilateral, setLowerUnilateral] = useState(null);
   const [lowerAccessory, setLowerAccessory] = useState(null);
@@ -39,6 +39,7 @@ const LowerBody = () => {
             <button onClick={() => handleMuscleGroupChange('quads')}>Quads</button>
             <button onClick={() => handleMuscleGroupChange('hamstrings')}>Hamstrings</button>
             <button onClick={() => handleMuscleGroupChange('glutes')}>Glutes</button>
+            <button onClick={() => handleMuscleGroupChange('calves')}>Calves</button>
           </div>
         </div>
         <div>
