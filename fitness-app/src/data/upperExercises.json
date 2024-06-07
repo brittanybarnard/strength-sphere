@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "name": "Wide grip lat pulldown",
+      "type": "compound",
+      "muscleGroup": "back"
+    },
+    {
+      "id": "2",
+      "name": "Overhand bent over rows",
+      "type": "compound",
+      "muscleGroup": "back"
+    },
+    {
+      "id": "3",
+      "name": "Single arm hammer rows",
+      "type": "unilateral",
+      "muscleGroup": "back"
+    },
+    {
+      "id": "4",
+      "name": "Face pulls",
+      "type": "accessory",
+      "muscleGroup": "back"
+    }
+  ]
+  

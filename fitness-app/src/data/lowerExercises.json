@@ -1,0 +1,27 @@
+[
+    {
+      "id": "5",
+      "name": "Barbell back squats",
+      "type": "compound",
+      "muscleGroup": "quads"
+    },
+    {
+      "id": "6",
+      "name": "Leg press",
+      "type": "compound",
+      "muscleGroup": "quads"
+    },
+    {
+      "id": "7",
+      "name": "walking lunges",
+      "type": "unilateral",
+      "muscleGroup": "quads"
+    },
+    {
+      "id": "8",
+      "name": "Leg extensions",
+      "type": "accessory",
+      "muscleGroup": "quads"
+    }
+  ]
+  
