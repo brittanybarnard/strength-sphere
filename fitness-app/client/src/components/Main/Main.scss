@@ -16,16 +16,24 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 75vh;
+        height: 100vh;
 
         &--heading,
         &--subheading {
-            letter-spacing: 2px;
-            font-size: 24px;
+            font-size: 26px;
             font-weight: 600;
-            line-height: 1.25em;
+            letter-spacing: 4px;
+            line-height: 41.6px;
             text-align: center;
         }
+
+        &--subheading {
+            font-weight: 500;
+            padding-top: 20px;
+            color: rgba(180, 181, 196, 0.7490196078);
+            font-size: 20px;
+        }
+
     }
 
     &__list {

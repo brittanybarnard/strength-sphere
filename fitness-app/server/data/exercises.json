@@ -79,13 +79,13 @@
     },
     {
       "id": "2",
-      "name": "Straight bar tricep pushdown",
+      "name": "",
       "type": "compound",
       "muscleGroup": "triceps"
     },
     {
       "id": "2",
-      "name": "Skullcrushers",
+      "name": "",
       "type": "compound",
       "muscleGroup": "triceps"
     },
@@ -97,19 +97,25 @@
     },
     {
       "id": "4",
-      "name": "",
+      "name": "Skullcrushers",
+      "type": "accessory",
+      "muscleGroup": "triceps"
+    },
+    {
+      "id": "4",
+      "name": "Straight bar tricep pushdown",
       "type": "accessory",
       "muscleGroup": "triceps"
     },
     {
       "id": "2",
-      "name": "Incline dumbbell curl",
+      "name": "",
       "type": "compound",
       "muscleGroup": "biceps"
     },
     {
       "id": "2",
-      "name": "Cable curl",
+      "name": "",
       "type": "compound",
       "muscleGroup": "biceps"
     },
@@ -121,7 +127,13 @@
     },
     {
       "id": "4",
-      "name": "",
+      "name": "Incline dumbbell curl",
+      "type": "accessory",
+      "muscleGroup": "biceps"
+    },
+    {
+      "id": "4",
+      "name": "Cable curl",
       "type": "accessory",
       "muscleGroup": "biceps"
     },

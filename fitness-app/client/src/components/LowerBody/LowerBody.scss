@@ -1,0 +1,104 @@
+.lowerBody {
+    padding: 36px 24px 24px;
+
+    &__heading {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__card {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin: 48px 0 36px;
+    }
+
+    &__description {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 1.65em;
+        color: #a0a1af;
+    }
+
+    &__list {
+
+        &-heading {
+            line-height: 30px;
+            padding: 16px 0 12px;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        &-item {
+            list-style: none;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 1.4em;
+            color: #a0a1af;
+            text-transform: capitalize;
+        }
+    }
+
+    &__content {
+        padding: 20px;
+
+        &-subheading {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 30px;
+            padding: 16px 0 12px;
+        }
+
+        &-icon {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            padding: 15px;
+        }
+
+        &-description {
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 1.65em;
+            color: #a0a1af;
+        }
+
+        &-select-heading {
+            line-height: 30px;
+            padding: 16px 0 12px;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        &-menu {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-button {
+            background-color: inherit;
+            color: white;
+            padding: 20px;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            margin: 16px 0;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            line-height: 30px;
+            letter-spacing: 2px;
+        }
+
+        &-button:hover {
+            cursor: pointer;
+        }
+    }
+}
