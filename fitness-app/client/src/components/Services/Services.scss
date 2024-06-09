@@ -1,0 +1,61 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/global';
+@use '../../styles/partials/colors' as *;
+
+
+.services {
+    padding: 36px 24px 24px;
+
+    @include tablet {
+
+    }
+
+    &__heading {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__subheading {
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: -0.96px;
+        line-height: 41.6px;
+        padding: 48px 0 36px;
+    }
+
+    &__card {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    &__content {
+        padding: 20px;
+
+        &-icon {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            padding: 15px;
+        }
+
+        &-heading {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 30px;
+            padding: 16px 0 12px;
+        }
+
+        &-boilerplate {
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 1.65em;
+            color: #a0a1af;
+        }
+    }
+}

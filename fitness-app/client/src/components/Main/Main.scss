@@ -1,0 +1,40 @@
+@use '../../styles/partials/global';
+
+.main {
+    background-image: url(../../assets/images/hero-image--mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__title-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 75vh;
+
+        &--heading,
+        &--subheading {
+            letter-spacing: 2px;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.25em;
+            text-align: center;
+        }
+    }
+
+    &__list {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

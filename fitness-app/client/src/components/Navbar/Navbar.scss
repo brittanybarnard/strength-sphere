@@ -1,6 +1,18 @@
 .navbar {
+  position: fixed;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 24px 16px 16px;
 
-  &__logo {
-    width: 150px;
-  }
+    // &__logo {
+    //   width: 150px;
+    // }
+
+    &__heading {
+      font-size: 16px;
+      letter-spacing: 4px;
+    }
 }

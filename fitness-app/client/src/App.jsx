@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Main from "./components/Main/Main";
 import UpperBody from "./components/UpperBody/UpperBody";
 import LowerBody from "./components/LowerBody/LowerBody";
+import Services from "./components/Services/Services";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
       <Navbar />
       <Main />
+      <Services />
       <UpperBody />
       <LowerBody />
     </>

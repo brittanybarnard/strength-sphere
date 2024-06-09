@@ -5,10 +5,11 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-        <img className='navbar__logo' src={logo} alt="logo" />
+    <nav className='navbar'>
+        {/* <img className='navbar__logo' src={logo} alt="logo" /> */}
+        <h2 className='navbar__heading'>StrengthSphere</h2>
         <FontAwesomeIcon icon={faBars} />
-    </div>
+    </nav>
   )
 }
 

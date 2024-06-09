@@ -15,6 +15,7 @@ const LowerBody = () => {
         const api = new ExercisesApi();
         const response = await api.getExercise(selectedMuscleGroup);
         const data = response.data;
+        
         const lowerCompoundFiltered = data.filter(exercise => exercise.type === 'compound');
         const lowerUnilateralFiltered = data.filter(exercise => exercise.type === 'unilateral');
         const lowerAccessoryFiltered = data.filter(exercise => exercise.type === 'accessory');
