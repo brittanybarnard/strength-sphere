@@ -1,8 +1,18 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To use this app, ensure the following are installed/run the following commands to use app:
+- Client:
+    - npm i
+    - npm i sass
+    - npm run dev
 
-Currently, two official plugins are available:
+- Server:
+    - npm init -y
+    - npm i express
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech stack used:
+- React+Vite
+- Express
+- Node.js
+
+Purpose of the app is to create a workout routine specific to bodybuilding style lifting. With a focus on isolating muscle groups, select the designed muscle group and view the exercises below.
