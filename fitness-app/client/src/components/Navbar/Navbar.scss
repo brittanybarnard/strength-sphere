@@ -1,3 +1,8 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/global';
+@use '../../styles/partials/colors' as *;
+
 .navbar {
   position: fixed;
   color: #fff;
@@ -5,14 +10,16 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  padding: 24px 16px 16px;
+  padding: 36px 24px 24px;
+  transition: background-color 0.3s ease; 
+  
+  &__heading {
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
 
-    // &__logo {
-    //   width: 150px;
-    // }
-
-    &__heading {
-      font-size: 16px;
-      letter-spacing: 4px;
-    }
+  &.scrolled {
+    background-color: #161a20; 
+  }
 }
+

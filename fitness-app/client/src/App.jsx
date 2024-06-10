@@ -4,6 +4,7 @@ import Main from "./components/Main/Main";
 import UpperBody from "./components/UpperBody/UpperBody";
 import LowerBody from "./components/LowerBody/LowerBody";
 import Services from "./components/Services/Services";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <UpperBody />
       <LowerBody />
+      <Footer />
     </>
   )
 }

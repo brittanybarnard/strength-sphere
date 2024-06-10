@@ -1,100 +1,145 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/global';
+@use '../../styles/partials/colors' as *;
+
 .lowerBody {
-    padding: 36px 24px 24px;
+    padding: 2.25rem 1.5rem 1.5rem;
 
     &__heading {
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 400;
-        letter-spacing: 2px;
+        letter-spacing: 0.125rem;
         text-transform: uppercase;
     }
 
     &__card {
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        margin: 48px 0 36px;
+        border: 0.0625rem solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.25rem;
+        margin: 3rem 0 2.25rem;
     }
 
     &__description {
-        font-size: 17px;
+        font-size: 1.0625rem;
         font-weight: 300;
         line-height: 1.65em;
         color: #a0a1af;
     }
 
+    &__exercise-container {
+
+        @include tablet {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @include desktop {
+            justify-content: center;
+        }
+    }
+
     &__list {
 
+        @include tablet {
+            width: 28%;
+            text-align: center;
+            margin: 1rem 1rem;
+        }
+
         &-heading {
-            line-height: 30px;
-            padding: 16px 0 12px;
-            font-size: 14px;
+            line-height: 1.875rem;
+            padding: 1rem 0 0.75rem;
+            font-size: 0.875rem;
             font-weight: 400;
-            letter-spacing: 2px;
+            letter-spacing: 0.125rem;
             text-transform: uppercase;
         }
 
         &-item {
             list-style: none;
-            font-size: 17px;
+            font-size: 1.0625rem;
             font-weight: 300;
             line-height: 1.4em;
             color: #a0a1af;
             text-transform: capitalize;
+            letter-spacing: 0.125rem;
         }
     }
 
     &__content {
-        padding: 20px;
+        padding: 1.25rem;
 
         &-subheading {
-            font-size: 24px;
+            font-size: 1.5rem;
             font-weight: 500;
-            line-height: 30px;
-            padding: 16px 0 12px;
+            line-height: 1.875rem;
+            padding: 1rem 0 0.75rem;
         }
 
         &-icon {
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 0.0625rem solid rgba(255, 255, 255, 0.1);
             border-radius: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 48px;
-            height: 48px;
-            padding: 15px;
+            width: 3rem;
+            height: 3rem;
+            padding: 0.9375rem;
         }
 
         &-description {
-            font-size: 17px;
+            font-size: 1.0625rem;
             font-weight: 300;
             line-height: 1.65em;
             color: #a0a1af;
+            letter-spacing: 0.125rem;
         }
 
         &-select-heading {
-            line-height: 30px;
-            padding: 16px 0 12px;
-            font-size: 14px;
+            line-height: 1.875rem;
+            padding: 1rem 0 0.75rem;
+            font-size: 0.875rem;
             font-weight: 400;
-            letter-spacing: 2px;
+            letter-spacing: 0.125rem;
             text-transform: uppercase;
         }
 
         &-menu {
             display: flex;
             flex-direction: column;
+
+            @include tablet {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            @include desktop {
+                justify-content: center;
+            }
         }
 
         &-button {
             background-color: inherit;
             color: white;
-            padding: 20px;
-            border-radius: 4px;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            margin: 16px 0;
-            font-size: 14px;
+            padding: 1.25rem;
+            border-radius: 0.25rem;
+            border: 0.0625rem solid rgba(255, 255, 255, 0.3);
+            margin: 1rem 0;
+            font-size: 0.875rem;
             font-weight: 400;
             text-transform: uppercase;
-            line-height: 30px;
-            letter-spacing: 2px;
+            line-height: 1.875rem;
+            letter-spacing: 0.125rem;
+
+            @include tablet {
+                width: 28%;
+                margin: 1rem 1rem;
+            }
+
+            @include desktop {
+                width: 13%;
+                margin: 2.25rem 2.25rem;
+            }
         }
 
         &-button:hover {

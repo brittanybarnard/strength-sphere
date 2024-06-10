@@ -1,4 +1,7 @@
 @use '../../styles/partials/global';
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/colors' as *;
 
 .main {
     background-image: url(../../assets/images/hero-image--mobile.jpg);
@@ -10,6 +13,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @include desktop {
+        background-image: url(../../assets/images/hero-image--desktop.jpg);
+    }
 
     &__title-container{
         display: flex;
@@ -42,7 +49,12 @@
         justify-content: center;
         text-transform: uppercase;
         letter-spacing: 4px;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 600;
+
+        &-item {
+            color: white;
+            text-decoration: none;
+        }
     }
 }

@@ -5,57 +5,55 @@
 
 
 .services {
-    padding: 36px 24px 24px;
-
-    @include tablet {
-
-    }
+    padding: 2.25rem 1.5rem 1.5rem;
 
     &__heading {
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 400;
-        letter-spacing: 2px;
+        letter-spacing: 0.125rem;
         text-transform: uppercase;
     }
 
     &__subheading {
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 600;
-        letter-spacing: -0.96px;
-        line-height: 41.6px;
-        padding: 48px 0 36px;
+        letter-spacing: -0.06rem;
+        line-height: 2.6rem;
+        padding: 3rem 0 2.25rem;
     }
 
     &__card {
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 0.0625rem solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.25rem;
     }
 
     &__content {
-        padding: 20px;
+        padding: 1.25rem;
 
         &-icon {
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 0.0625rem solid rgba(255, 255, 255, 0.1);
             border-radius: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 48px;
-            height: 48px;
-            padding: 15px;
+            width: 3rem;
+            height: 3rem;
+            padding: 0.9375rem;
         }
 
         &-heading {
-            font-size: 24px;
+            font-size: 1.5rem;
             font-weight: 500;
-            line-height: 30px;
-            padding: 16px 0 12px;
+            line-height: 1.875rem;
+            padding: 1rem 0 0.75rem;
         }
 
         &-boilerplate {
-            font-size: 17px;
+            font-size: 1.0625rem;
             font-weight: 300;
             line-height: 1.65em;
             color: #a0a1af;
+            letter-spacing: 0.125rem;
         }
     }
 }

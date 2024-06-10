@@ -41,7 +41,7 @@ const LowerBody = () => {
   };
 
   return (
-    <div className='lowerBody'>
+    <div id='lowerBody' className='lowerBody'>
         <h3 className='lowerBody__heading'>/Lower Body</h3>
         <div className="lowerBody__card">
           <div className="lowerBody__content">
@@ -57,26 +57,22 @@ const LowerBody = () => {
                 <button className='lowerBody__content-button' onClick={() => handleMuscleGroupChange('calves')}>Calves</button>
               </div>
             </div>
-            <div className='lowerBody__exercise-container'>
+            <div className="lowerBody__exercise-container">
                 <ul className='lowerBody__list'>
                 <h4 className='lowerBody__list-heading'>Compound:</h4>
                     {lowerCompound.map((exercise, index) => (
                       <li className='lowerBody__list-item' key={index}>{exercise.name}</li>
                     ))}
                 </ul>
-            </div>
-            <div className='lowerBody__exercise-container'>
                 <ul className='lowerBody__list'>
                   <h4 className='lowerBody__list-heading'>Unilateral:</h4>
                     <li className='lowerBody__list-item'>{lowerUnilateral ? lowerUnilateral.name : ''}</li>
                 </ul>
-            </div>
-            <div className='lowerBody__exercise-container'>
                 <ul className='lowerBody__list'>
                   <h4 className='lowerBody__list-heading'>Isolation:</h4>
                     <li className='lowerBody__list-item'>{lowerAccessory ? lowerAccessory.name : ''}</li>
                 </ul>
-            </div>
+              </div>
           </div>
         </div>
     </div>

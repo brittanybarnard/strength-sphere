@@ -1,0 +1,17 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/global';
+@use '../../styles/partials/colors' as *;
+
+.footer {
+    padding: 36px 24px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__copyright-text {
+        font-size: 14px;
+        color: #a0a1af;
+        text-transform: uppercase;
+    }
+}
