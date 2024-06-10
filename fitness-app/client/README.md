@@ -9,6 +9,7 @@ To use this app, ensure the following are installed/run the following commands t
 - Server:
     - npm init -y
     - npm i express
+    - node index.js
 
 Tech stack used:
 - React+Vite
